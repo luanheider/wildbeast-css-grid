@@ -98,6 +98,49 @@ img {
     grid-area: content;
     max-width: 900px;
     margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+/*class para elementos que ocupam duas colunas no content*/
+.col-wide {
+    grid-column: 1 / -1;
+}
+
+.image-1 {
+    grid-row: span 2;
+    align-self: end;
+}
+
+.image-2 {
+    align-self: end;
+}
+
+/*ESTILOS CONTENT*/
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.information p + p {
+    margin-top: 30px;
+}
+
+.title {
+    color: #B07DFB;
+}
+.title h1 {
+    font-size: 3.75em;
+    font-weight: 700;
+    line-height: 1;
+}
+.title span {
+    font-size: 0.875em;
+    font-style: italic;
 }
 
 /* ADVERTS */
