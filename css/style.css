@@ -143,6 +143,44 @@ p {
     font-style: italic;
 }
 
+/*DETAILS*/
+.details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.details > div {
+    width: 80px;
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+   text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+}
+
+.details > div:first-child {
+    margin-right: 30px;
+}
+
+.details > div .number {
+    font-size: 3em;
+    color: #B07DFB;
+    margin: 10px 0;
+    line-height: 1;
+}
+
+.details span {
+    display: block;
+    color: #B07DFB;
+}
+
+.details .label {
+    background: #FFF;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 0;
+    position: relative;
+    top: 2px;
+}
+
 /* ADVERTS */
 .adverts {
     grid-area: adverts;
