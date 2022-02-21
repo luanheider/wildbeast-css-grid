@@ -181,6 +181,42 @@ p {
     top: 2px;
 }
 
+.emphasis {
+    font-size: 0.875em;
+    color: #B07DFB;
+    max-width: 16em;
+}
+
+.quote, .attributes {
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.35);
+}
+
+.quote p {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    color: #FFF;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.attributes {
+    align-self: start;
+}
+.attributes li {
+    color: #FFF;
+    font-size: 1.125em;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+
+.attributes li + li {
+    border-top: 2px solid #B07DFB;
+}
+
 /* ADVERTS */
 .adverts {
     grid-area: adverts;
