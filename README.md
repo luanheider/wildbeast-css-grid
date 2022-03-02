@@ -7,8 +7,8 @@
 
 ### Desktop
 
-![wildbeast](img/readme/wildbeats-g.png.png)
+![wildbeast](img/readme/wildbeats-g.png)
 
 ### Mobile
 
-![wildbeast](img/readme/wildbeats-p.png.png)
+![wildbeast](img/readme/wildbeats-p.png)
